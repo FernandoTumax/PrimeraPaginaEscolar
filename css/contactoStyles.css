@@ -1,0 +1,164 @@
+@font-face{
+    font-family: "yanone";
+    src: url("fonts/yanone.ttf");
+}
+
+#usuarioLogeado{
+    display: block;
+    float: left;
+    width: 345px;
+    height: 325px;
+    margin: 0px auto;
+    margin-top: 50px;
+    margin-left: 25px;
+    padding-top: 2px;
+    background: white;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.3), 0px 1px white inset, 0px -3px 2px rgba(0, 0, 0, 0.3) inset;
+    background-image: url("img/pattern.png");
+}
+
+#usuarioLogeado img{
+    padding-top: 10px;
+    padding-left: 115px;
+    width: 100px;
+}
+
+#usuarioLogeado p{
+    display: block;
+    width: 70%;
+    margin-top: 25px;
+    line-height: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 25px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "yanone";
+    box-shadow: 0px 1px 0px #393d3f, 1px 2px 0px #393d3f, 2px 3px 0px #393d3f, 3px 4px 0px #393d3f;
+}
+
+#detalleUsuario{
+    float: right;
+    margin-top: -46px !important;
+    margin-right: 35px !important;
+}
+
+
+#listaContacto #addContacto{
+    display: block;
+    margin-left: 15px;
+    margin-top: 18px;
+    text-align: center;
+    width: 120px;
+    height: 45px;
+    line-height: 45px;
+    color: black;
+    background: white;
+    border: 1px solid black;
+    box-shadow: 0px 1px 0px #393d3f, 1px 2px 0px #393d3f, 2px 3px 0px #393d3f, 3px 4px 0px #393d3f;
+    border-radius: 0px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: lighter;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 300ms all;
+}
+
+#usuarioLogeado a{
+    display: block;
+    margin-left: 25px;
+    margin-right: 0px;
+    margin-top: 18px;
+    text-align: center;
+    width: 120px;
+    height: 45px;
+    line-height: 45px;
+    color: black;
+    background: white;
+    border: 1px solid black;
+    box-shadow: 0px 1px 0px #393d3f, 1px 2px 0px #393d3f, 2px 3px 0px #393d3f, 3px 4px 0px #393d3f;
+    border-radius: 0px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: lighter;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 300ms all;
+}
+
+
+
+#addContacto{
+    display: block !important;
+    margin-left: 190px !important;
+    margin-top: 50px !important;
+}
+
+#addContacto:hover{
+    font-size: 20px !important;
+    width: 150px !important;
+    height: 50px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    background-color: #37bcf9 !important;
+    color: white !important;
+}
+
+#usuarioLogeado a:hover{
+    font-size: 20px;
+    width: 140px;
+    height: 50px;
+    background-color: #37bcf9;
+    color: white;
+}
+
+
+#listaContacto{
+    width: 575px;
+    height: 440px;
+    margin: 0px auto;
+    margin-top: 50px;
+    padding-top: 2px;
+    background: white;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.3), 0px 1px white inset, 0px -3px 2px rgba(0, 0, 0, 0.3) inset;
+    background-image: url("img/pattern.png");
+}
+
+#listaContacto ul{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    margin-left: 35px;
+    margin-top: 35px;
+    box-shadow:  0px 1px 0px #393d3f, 1px 2px 0px #393d3f, 2px 3px 0px #393d3f, 3px 4px 0px #393d3f;
+    width: 80%;
+    transition: 300ms all;
+}
+
+
+
+#listaContacto ul li{
+    list-style: none;
+    font-family: "yanone";
+    font-size: 20px;
+    transition: 300ms all;
+}
+
+#listaContacto ul li a{
+    color:black;
+    transition: 200ms all;
+}
+
+#listaContacto ul li a:hover{
+    color: white;
+    font-size: 25px;
+}
+
+
+#listaContacto ul:hover{
+    transform: scale(1.1, 1.1);
+    background-color: #37bcf9;
+}
+
+
